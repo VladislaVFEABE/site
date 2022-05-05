@@ -1,0 +1,372 @@
+
+.menu {
+	width: 100%;
+	display: table;
+	background: white;
+}
+.menu ul {
+	display: table-row;
+}
+.menu li {
+	display: table-cell;
+	position: relative;
+	background: black;
+}
+.menu li a {
+	display: block;
+	padding: 15px 15px;
+	color: white;
+	text-align: center;
+}
+.menu-caret:after {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: .255em;
+	vertical-align: .255em;
+	content: "";
+	border-top: 3px solid;
+	border-right: 3px solid transparent;
+	border-bottom: 0;
+	border-left: 3px solid transparent;
+}
+.menu ul li:hover, .menu a:hover {
+	background: #666;
+}
+.knopka{
+	background: #01996D;
+	color: white;
+	font-size: 20px;
+	width: 220px;
+	height: 60px;
+	border-radius: 30px;
+	margin-left: 9%;
+}
+.knopka:hover{
+	color: blue;
+	background: red;
+}
+.glfoto{
+	position: relative;
+    display: inline-block;
+}
+.glfoto img{
+	height: 800px;
+	width: 1800px;
+}
+.glfoto p{
+	   /*background: rgba(0,0,0,0.7); (полупрозрачность)*/
+	   border-radius: 2px;
+	  margin-top: -600px;
+	   right: 0;
+	   bottom: 10px;
+	   font-size: 180px;
+	   margin-right: 150px;
+}
+.glfoto .sueta{
+	color: rgb(22, 199, 146);
+    font-size: 70px;
+	margin-left: 150px;
+}
+.glfoto .mmm{
+	margin-top: 15px;
+	margin-left: 150px;
+	font-size: 25px;
+}
+.glfoto .geniibezni{
+	display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 50px;
+
+font-size: 20px;
+width: 227px;
+height: 65px;
+margin-left:90px;
+margin-top: 50px;
+color: rgb(226, 32, 32);
+background: #01996D;
+border: 1px solid #01996D;
+box-sizing: border-box;
+border-radius: 4px;
+}
+.text{
+	margin-top: 180px;
+	width: 584px;
+	height: 158px;
+	margin-left: 150px;
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 157%;
+	/* or 79px */
+	color: #01996D;
+	
+	
+}
+.ladno{
+	margin-top: -160px;
+width: 671px;
+margin-left: 995px;
+bottom: 115px;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+}
+.n{
+	margin-left: 150px;
+	position: absolute;
+width: 141px;
+height: 38px;
+font-weight: 600;
+font-size: 24px;
+line-height: 157%;
+/* identical to box height, or 38px */
+
+
+color: #424242;
+}
+.taf{
+	margin-top: -50px;
+width: 157px;
+height: 225px;
+margin-left: 160px;
+top: 765px;
+font-size: 150px;
+text-align: center;
+color: rgba(1, 153, 109, 0.2);
+}
+.p{
+	position: absolute;
+top: 1145px;
+left: 270px;
+font-size: 30px;
+text-align: center;
+color: #000000;
+font-weight: 700;
+}
+.malou{
+	position: absolute;
+	top: 1200px;
+	left: 170px;
+}
+.foto{
+width: 290px;
+height: 192px;
+margin-left: 130px;
+margin-top: 80px;
+}
+.l{
+	position: absolute;
+	width: 157px;
+	height: 225px;
+	left: 670px;
+	top: 995px;
+	font-size: 150px;
+	text-align: center;
+	color: rgba(1, 153, 109, 0.2);
+}
+.bb{
+margin-top: -180px;
+left: 770px;
+font-size: 30px;
+text-align: center;
+color: #000000;
+font-weight: 700;
+}
+.qq{
+	margin-top: 10px;
+	margin-left: 670px;
+}
+.foto2{
+	width: 290px;
+	height: 200px;
+	margin-left: 650px;
+	margin-top: 10px;
+}
+.pppppp{
+	width: 157px;
+	height: 225px;
+	margin-left: 1170px;
+	margin-top: -800px;
+	font-size: 150px;
+	text-align: center;
+	color: rgba(1, 153, 109, 0.2);
+}
+.Alivio{
+	margin-top: -150px;
+	margin-left: 870px;
+	font-size: 30px;
+	text-align: center;
+	color: #000000;
+	font-weight: 700;
+}
+.otchim{
+	margin-top: 50px;
+	margin-left: 1200px;
+}
+.foto3{
+	width: 1500px;
+	height: 100px;
+	margin-left: 1200px;
+	margin-top: 20px;
+	
+}
+.maxim{
+position: absolute;
+width: 1920px;
+height: 922px;
+left: 0px;
+top: 2100px;
+background: #245852;
+}
+.urod{
+	position: absolute;
+	top: 2100px;
+	left: 400px;
+	font-size: 50px;
+	color: white;
+	font-weight: 700;
+	align-items: center;
+}
+.urodina{
+	position: absolute;
+	top: 2270px;
+	left: 400px;
+	color: white;
+}
+.sueta2{
+
+	margin-top: 2400px;
+	left: 400px;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 50px;
+	width: 240px;
+	height: 70px;
+	left: 400px;
+	top: 2400px;
+	background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;	
+left: 400px;
+top: 2300px;
+font-size: 20px;
+line-height: 25px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 30px 0px;
+}
+.telka{
+	position: absolute;
+	top: 2100px;
+	left: 900px;
+}
+.lu{
+	position: absolute;
+	top: 2900px;
+	left: 340px;
+}
+.bezdarnostb{
+	position: absolute;
+	top: 2900px;
+	left: 450px;
+}
+.mudenb{
+	position: absolute;
+	top: 2875px;
+	left: 1200px;
+	font-size: 25px;
+}
+.umstvenno-otstalii{
+	position: absolute;
+	top: 2900px;
+	left: 1200px;
+	font-size: 40px;
+	color:  #01996D;	
+	font-weight: 700;
+}
+.daunixa{
+	position: absolute;
+	top: 3025px;
+	left: 1200px;
+}
+.laun{
+	margin-top: 1900px;
+	margin-left: 1200px;
+	color: white;
+	background-color: #01996D;
+	width: 200px;
+	height: 50px;
+	overflow: hidden;
+	border-radius: 5px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+}
+.boje{
+	position: absolute;
+	top: 3200px;
+	left: 300px;
+	color: red;
+}
+.tp{
+	position: absolute;
+	top: 3220px;
+	left: 300px;
+	color: #000000;
+	font-size: 40;
+	font-weight: 700;
+}
+.krug{
+	position: absolute;
+	overflow: hidden;
+    border-radius: 300px;
+	margin-left: 320px;
+	margin-top: 0px;
+	
+background: rgba(1, 153, 109, 0.2);
+}
+.text1{
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 320px;
+}
+.minus{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 280px;
+	font-weight: 700;
+}
+.limbo{
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 240px;
+	line-height: 30px;
+}
+.bgshka{
+width: 1920px;
+height: 922px;
+margin-left: 0px;
+margin-top: 250px;
+background: #245852;
+}
+.alivbe{
+	color: white;
+	font-weight: 700;
+	margin-left: 200px;
+	margin-top: -850px;
+	font-size: 50px;
+}
+.slova{
+	color: white;
+	margin-left: 200px;
+	font-size: 30px;
+	line-height: 70px;
+}
